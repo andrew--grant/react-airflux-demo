@@ -18,4 +18,4 @@ If you want to run with webpack-dev-server simply run this command:
 > $ npm run dev
 ```
 
-Please contribute to the project if you think this can be done better in anyway even for this README :)
+[andrewgrant.net.au](http://www.andrewgrant.net.au)
