@@ -4,11 +4,6 @@ import {actions} from '../../airflux/actions/Actions.js';
 
 export default class QuantitySelector extends React.Component {
 
-    constructor() {
-        super();
-    }
-
-
     handleClick() {
         var quantitySelected = React.findDOMNode(this.refs.quantitySelectorSelect).value;
         if (quantitySelected > 0) {
