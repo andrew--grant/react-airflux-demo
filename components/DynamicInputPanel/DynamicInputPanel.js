@@ -1,5 +1,5 @@
 import React from 'react';
-import {quantitySelectorStore} from '../../airflux/stores/QuantitySelectorStore.js';
+import {quantitySelectorStore} from '../../airflux/stores/QuantitySelectorStore';
 
 export default class DynamicInputPanel extends React.Component {
 

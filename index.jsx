@@ -1,7 +1,7 @@
 import React from 'react';
 import Airflux from 'airflux';
-import QuantitySelector from './components/QuantitySelector/QuantitySelector.js';
-import DynamicInputPanel from './components/DynamicInputPanel/DynamicInputPanel.js';
+import QuantitySelector from './components/QuantitySelector/QuantitySelector';
+import DynamicInputPanel from './components/DynamicInputPanel/DynamicInputPanel';
 
 export class App extends React.Component {
 

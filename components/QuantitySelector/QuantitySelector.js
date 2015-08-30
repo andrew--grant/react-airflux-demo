@@ -1,6 +1,6 @@
 import React from 'react';
 import Airflux from 'airflux';
-import {actions} from '../../airflux/actions/Actions.js';
+import {actions} from '../../airflux/actions/Actions';
 
 export default class QuantitySelector extends React.Component {
 

@@ -1,5 +1,5 @@
 import Airflux from 'airflux';
-import {actions} from './../actions/Actions.js';
+import {actions} from './../actions/Actions';
 
 var quantitySelectorStore = new class QuantitySelectorStore extends Airflux.Store {
 
