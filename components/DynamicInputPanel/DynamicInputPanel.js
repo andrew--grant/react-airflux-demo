@@ -1,7 +1,8 @@
 import React from 'react';
+import BaseComponent from '../BaseComponent';
 import {quantitySelectorStore} from '../../airflux/stores/QuantitySelectorStore';
 
-export default class DynamicInputPanel extends React.Component {
+export default class DynamicInputPanel extends BaseComponent {
 
     constructor(props){
         super(props);
@@ -9,6 +10,7 @@ export default class DynamicInputPanel extends React.Component {
     }
 
     onChange(quantitySelected) {
+        this.log("hello base!");
         this.setState({
             numberOfInputs: quantitySelected
         });
@@ -31,7 +33,7 @@ export default class DynamicInputPanel extends React.Component {
         }
         return (
             <div id="dynamic-input-panel">
-                <h2>DynamicInputPanel</h2>
+                <h2>DynamicInputPanelxxx</h2>
                 {inputs}
             </div>
         );

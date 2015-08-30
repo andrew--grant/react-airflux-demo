@@ -1,8 +1,9 @@
 import React from 'react';
+import BaseComponent from '../BaseComponent';
 import Airflux from 'airflux';
 import {actions} from '../../airflux/actions/Actions';
 
-export default class QuantitySelector extends React.Component {
+export default class QuantitySelector extends BaseComponent {
 
     handleClick() {
         var quantitySelected = React.findDOMNode(this.refs.quantitySelectorSelect).value;
