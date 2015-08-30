@@ -33,7 +33,7 @@ export default class DynamicInputPanel extends BaseComponent {
         }
         return (
             <div id="dynamic-input-panel">
-                <h2>DynamicInputPanelxxx</h2>
+                <h2>DynamicInputPanel</h2>
                 {inputs}
             </div>
         );
